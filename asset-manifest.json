@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/beta/static/css/main.fe8028cf.css",
-    "main.js": "/beta/static/js/main.3c6525b9.js",
-    "static/js/453.64512fd7.chunk.js": "/beta/static/js/453.64512fd7.chunk.js",
+    "main.css": "/beta/static/css/main.544f0f36.css",
+    "main.js": "/beta/static/js/main.efcd88be.js",
+    "static/js/453.cc4302a0.chunk.js": "/beta/static/js/453.cc4302a0.chunk.js",
     "static/media/data.jpg": "/beta/static/media/data.19f20187a50adf92c1ad.jpg",
     "static/media/BGjpg.jpg": "/beta/static/media/BGjpg.756b04033ebd291d7bd9.jpg",
     "static/media/pattern (1).png": "/beta/static/media/pattern (1).f72853c0e46f324dc7f5.png",
@@ -22,12 +22,12 @@
     "static/media/search.svg": "/beta/static/media/search.940d8ccebc84361334bcee2ef2792f96.svg",
     "static/media/facebook.svg": "/beta/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
     "static/media/electric.svg": "/beta/static/media/electric.4195746e5c5bda50d4f9585050712828.svg",
-    "main.fe8028cf.css.map": "/beta/static/css/main.fe8028cf.css.map",
-    "main.3c6525b9.js.map": "/beta/static/js/main.3c6525b9.js.map",
-    "453.64512fd7.chunk.js.map": "/beta/static/js/453.64512fd7.chunk.js.map"
+    "main.544f0f36.css.map": "/beta/static/css/main.544f0f36.css.map",
+    "main.efcd88be.js.map": "/beta/static/js/main.efcd88be.js.map",
+    "453.cc4302a0.chunk.js.map": "/beta/static/js/453.cc4302a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe8028cf.css",
-    "static/js/main.3c6525b9.js"
+    "static/css/main.544f0f36.css",
+    "static/js/main.efcd88be.js"
   ]
 }
