@@ -18,3 +18,172 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media (max-width: 480px) {
+
+  /* GENERAL */
+  * {
+    max-width: 100%;
+  }
+
+  /* TEXT */
+  .h1-text { font-size: 24px; } /* :contentReference[oaicite:5]{index=5} */
+  .p-text { font-size: 16px; }
+
+  /* ABOUT */
+  .about h1 { font-size: 28px; } /* :contentReference[oaicite:6]{index=6} */
+  .about p {
+    max-width: 90%;
+    line-height: 28px;
+    font-size: 14px;
+  }
+
+  /* CARDS */
+  .card,
+  .card-2,
+  .product-card {
+    width: 100%;
+  }
+
+  .card-2-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* PRODUCTS */
+  .products-page {
+    flex-direction: column;
+    height: auto;
+  }
+
+  /* FORM */
+  .name-email {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .full-name,
+  .email,
+  .message,
+  .send {
+    width: 100%;
+  }
+
+  /* SIGN IN / UP */
+  .sign-in,
+  .sign-up {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .userN-passWord,
+  .userN-passWord input {
+    width: 100%;
+  }
+
+  .S-I,
+  .S-U,
+  .google-btn,
+  .facebook-btn,
+  .google-btn-up,
+  .facebook-btn-up {
+    width: 100%;
+  }
+
+  .right-side img,
+  .right-side-up img {
+    display: none;
+  }
+
+  /* FOOTER */
+  .footer-holder {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .social-icons {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* IMAGES */
+  .image-card img {
+    width: 120px;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+
+  /* TEXT */
+  .h1-text { font-size: 30px; }
+  .p-text { font-size: 18px; }
+
+  /* ABOUT */
+  .about p {
+    max-width: 80%;
+    line-height: 35px;
+  }
+
+  /* CARDS */
+  .cards-holder,
+  .two-card-holder {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 20px;
+  }
+
+  .card,
+  .card-2,
+  .product-card {
+    width: 90%;
+  }
+
+  /* PRODUCTS */
+  .products-page {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  /* FORM */
+  .full-name,
+  .email {
+    width: 100%;
+  }
+
+  .message,
+  .send {
+    width: 100%;
+  }
+
+  /* SIGN IN / UP */
+  .sign-in,
+  .sign-up {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .right-side img,
+  .right-side-up img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  /* HEADER FIX */
+  .links ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .one,
+  .two {
+    width: 100%;
+  }
+}
